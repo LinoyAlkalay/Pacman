@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(24, 24, 24);
+  color: whitesmoke;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.modal {
+  width: 300px;
+  height: 100px;
+  background-color: whitesmoke;
+  color: darkmagenta;
+  text-align: center;
+  border-radius: 4px;
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+}
+
+.modal button {
+  width: 100px;
+  height: 30px;
+  background-color: darkmagenta;
+  color: whitesmoke;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.modal button:hover {
+  background-color: whitesmoke;
+  border: solid darkmagenta;
+  color: darkmagenta;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+img {
+  width: 20px;
+}
+
+.flip-horizontally {
+  transform: scaleX(-1);
+}
+
+.flip-vertically {
+  transform: scaleY(-1);
+}
